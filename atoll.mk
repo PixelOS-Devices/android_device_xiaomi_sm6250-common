@@ -52,6 +52,9 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.atoll:32
 
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+
 PRODUCT_COPY_FILES += \
      $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
