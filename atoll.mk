@@ -161,6 +161,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     SM6250Frameworks \
+    SM6250SettingsProvider \
     SM6250SystemUI \
     TelephonyResCommon \
     WifiOverlay
